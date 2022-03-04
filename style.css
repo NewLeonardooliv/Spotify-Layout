@@ -16,13 +16,70 @@ html, body{
     overflow-y: auto;
     overflow-x: hidden;
 }
+.barra-toda{
+    padding-bottom: 200px;
+}
 .barra-logo img{
     max-width: 250px;
     width: 100%;
+    padding: 20px;
 }
 .menu a{
-    color: rgb(190, 190, 190);
+    color: #A9A9A9;
     text-decoration: none;
     display: block;
-    padding: 10px 0;
+    padding: 10px 20px;
+}
+.menu a:hover{
+    color: white;
+}
+.playlist-barra{
+    padding: 20px 0;
+    border-top: 1px solid #A9A9A9;
+}
+.playlist-barra p{
+    margin: 10px 20px;
+    display: block;
+    color: #A9A9A9;
+    text-decoration: none;
+}
+.playlist-barra p:hover{
+    color: white;
+}
+.principal{
+    width: calc(100% - 250px);
+    background-color: #1e1e1e;
+    height: 100%;
+    float: left;
+    padding: 15px 50px;
+    overflow-y: auto;
+}
+.principal-blocos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.meio-principal{
+    padding-bottom: 200px;
+}
+.titulo-principal{
+    width: 100%;
+}
+.titulo-principal h2{
+    color: white;
+}
+.principal-colunas{
+    cursor: pointer;
+    width: 15%;
+    margin-right: 1%;
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.principal-colunas img{
+    max-width: 100px;
+    max-height: 100px;
 }
