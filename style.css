@@ -30,16 +30,17 @@ html, body{
     text-decoration: none;
     display: block;
     padding: 10px 20px;
+    
 }
 .menu a:hover{
     color: #ffffff;
 }
 .menu img{
-    max-width: 20px ;
-    margin: 0 14px 0 0;
+    max-width: 25px ;
+    margin-right: 14px;
 }
 .playlist-barra{
-    padding: 20px 0;
+    padding: 15px -10px;
     border-top: 1px solid #363636;
     margin: 10px 10px;
 }
@@ -48,6 +49,8 @@ html, body{
     display: block;
     color: #A9A9A9;
     text-decoration: none;
+    font-weight: 700;
+
 }
 .playlist-barra p:hover{
     color: white;
@@ -60,10 +63,63 @@ html, body{
     padding: 15px 50px;
     overflow-y: auto;
 }
-.principal-blocos{
+.bloco-fav{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.colunas-fav{
+    cursor: pointer;
+    width: 32.334%;
+    margin: 0.5%;
+    background-color: #181818;
+    border-radius: 6px;
+
+}
+.colunas-fav:hover{
+    background-color: #282828;
+}
+.colunas-fav img{
+    height: 90px;
+
+}
+.colunas-fav p{
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  margin: -60px;
+  margin-top: -57px;
+  margin-bottom: 31.5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.bloco-fav a{
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;  
+    
+}
+.bloco-fav a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    visibility: hidden;
+  }
+.bloco-fav a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+.principal-blocos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 101%;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -111,8 +167,7 @@ html, body{
     transform: scaleX(1);
   }
 .principal-colunas img{
-    max-width: 148.88px;
-    max-height: 148.88px;
+    width: 138px;
 }
 .principal-colunas h3{
     color: #ffffff;
@@ -150,16 +205,16 @@ html, body{
 .player-artista h3{
     display: inline-block;
     color: #ffffff;
-    font-weight: normal;
     font-size: 15px;
     vertical-align: top;
     margin-top: 10px;
+    margin-left: -10px;
 }
 .player-artista p{
     display: inline-block;
     font-size: 11px;
-    vertical-align:bottom;
-    margin-left: -66px;
+    vertical-align: bottom;
+    margin-left: -66.5px;
     margin-bottom: 14px;
 }
 .player-artista a{
