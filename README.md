@@ -1,2 +1,2 @@
 # spotify-layout
-![image](https://user-images.githubusercontent.com/100946417/158024416-cd9f41b2-65e1-43a4-8c47-f6a220aa5363.png)
+![image](https://user-images.githubusercontent.com/100946417/158024469-00b1283e-9a58-499c-831e-07bce7b0eae6.png)
